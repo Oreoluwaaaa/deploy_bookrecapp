@@ -4,3 +4,4 @@ numpy==1.22.4                  # For handling numerical operations and embedding
 pandas==1.4.2                  # For data handling 
 torch>=1.13.0                  # Required for SBERT embeddings 
 sentence-transformers>=2.2.0   # For SBERT embeddings to handle NLP-based recommendations
+gunicorn
