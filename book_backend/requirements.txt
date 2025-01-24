@@ -1,0 +1,6 @@
+Flask==2.1.2                   # Flask for web framework
+Flask-Cors==3.0.10             # CORS handling for API requests from the frontend
+numpy==1.22.4                  # For handling numerical operations and embeddings
+pandas==1.4.2                  # For data handling (e.g., loading books.csv)
+torch==1.11.0                  # Required for SBERT embeddings (if not already installed)
+sentence-transformers==2.2.0   # For SBERT embeddings to handle NLP-based recommendations
