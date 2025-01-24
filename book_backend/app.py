@@ -13,7 +13,7 @@ from recSystem import (
 )
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "http://localhost:3000"}})
+CORS(app, resources={r"/*": {"origins": ["http://localhost:3000", "https://bookrecsapp.netlify.app"]}})
 
 # load your data, model and saved embeddings
 booksdf = getting_books_data("./books.csv")
