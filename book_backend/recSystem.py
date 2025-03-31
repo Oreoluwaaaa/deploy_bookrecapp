@@ -61,7 +61,7 @@ def getting_books_data(books):
 
 #load the model
 def load_model():
-    return sentran('bert-base-nli-mean-tokens')
+    return sentran('sentence-transformers/all-MiniLM-L6-v2')
 
 #generate embeddings using descriptions
 def generate_desc_embeddings(books_dataframe, sbert_model):
