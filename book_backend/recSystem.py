@@ -59,7 +59,7 @@ def getting_books_data(books):
 
     return booksdf
 
-#load the model
+#load the model again
 def load_model():
     return sentran('sentence-transformers/all-MiniLM-L6-v2')
 
